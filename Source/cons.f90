@@ -392,7 +392,7 @@ INTEGER  :: DIAGNOSTICS_INTERVAL                            !< Number of time st
 
 ! Combustion parameters
 
-REAL(EB) :: Y_O2_INFTY=0.232378_EB                                  !< Ambient mass fraction of oxygen
+REAL(EB) :: Y_O2_INFTY=0.232378999999_EB                                  !< Ambient mass fraction of oxygen
 REAL(EB) :: Y_CO2_INFTY=0.000595_EB                                 !< Ambient mass fraction of carbon dioxide
 REAL(EB) :: Y_H2O_INFTY=0._EB                                       !< Ambient mass fraction of water vapor
 REAL(EB) :: MW_AIR=28.84852_EB                                      !< Molecular weight of air (g/mol)
